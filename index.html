@@ -12,9 +12,10 @@
     <div class="valentines">
 
       <div class="card">
-        <div class="text">You are so attractive and<br> I want to give this<br> attractive to our children!</div>
-        <div class="heart"></div>
+        <div class="text">You are so attractiveness and<br> I want to give this<br> attractive to our children!</div>
         <div class="text1">I LOVE YOU SO MUCH<br>NANCY</div>
+        <div class="heart"></div>
+        <div class="text2">Today, on Propose Day, I want to express the depth of my affection for you. You fill my days with joy and my heart with warmth. Will you walk alongside me, sharing life's journey, as we create beautiful memories together?</div>
       </div>
 
       <div class="hearts">
@@ -36,6 +37,7 @@
 <style>
   body {
     height: 100vh;
+    width: 100vw;
     background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
     display: flex;
     justify-content: center;
@@ -68,7 +70,7 @@
   .card {
     background-color: #eae2b7;
     width: 450px;
-    height: 330px;
+    height: 440px;
     box-shadow: -5px -5px 100px rgba(0,0,0,0.4);
     border-radius: 20px;
     position: relative;
@@ -76,7 +78,7 @@
     border: 5px solid gray;
   }
 
-  .text, .text1 {
+  .text, .text1,.text2 {
     font-size: 24px;
     text-align: center;
     color: #003049;
@@ -87,13 +89,17 @@
     font-weight: bold;
   }
 
+  .text2{
+    margin-top: 50px;
+  }
+
   .heart {
     background-color: #d62828;
     display: inline-block;
     height: 30px;
     margin: 0 10px;
     position: relative;
-    top: 170px;
+    top: 25px;
     left: 200px;
     transform: rotate(-45deg);
     width: 30px;
